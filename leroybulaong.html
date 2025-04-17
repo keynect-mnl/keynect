@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <link href="assets/css/style.css" rel="stylesheet"/>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+  <link href="assets/images/logo.png" rel="shortcut icon" type="image/webp"/>
+  <link href="images/logo.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="assets/images/logo.png" rel="icon" type="image/webp"/>
+  <title>
+   leroybulaong
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- Snowfall Background Animation -->
+  <section class="animated-background">
+   <div id="stars1">
+   </div>
+   <div id="stars2">
+   </div>
+   <div id="stars3">
+   </div>
+  </section>
+  <!-- End of Snowfall Background Animation -->
+  <div class="min-h-full flex-h-center" id="background_div">
+   <input id="app-url" type="hidden" value="https://bio.link"/>
+   <input id="is-featured" type="hidden" value="null"/>
+   <canvas class="background-overlay" id="bg-canvas">
+   </canvas>
+   <div class="mt-48 page-full-wrap relative">
+    <input id="page-type" type="hidden" value="creator-page"/>
+    <img class="display-image m-auto" data-src="assets/images/logo.png" id="profile-photo" src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t39.30808-6/480211879_23945935245006830_4778062289966501533_n.jpg?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=6ee11a&amp;_nc_eui2=AeG2UNq7kLJ7Npobis0Q-Cn8ULw8Zfl07jFQvDxl-XTuMTmqk0cTjwPsoIHQUT0LuoyoRwH_A5LqMi0Ys4MNeRDK&amp;_nc_ohc=RI6HHWzT9NsQ7kNvwFecYA4&amp;_nc_oc=AdnTgc1jfpbva0ASxS5jZ8ki7hNn2KVXIJL7OCJaqvAPPSOS4tNyW0NKSEZBM7AL2x0&amp;_nc_zt=23&amp;_nc_ht=scontent.fmnl3-1.fna&amp;_nc_gid=pE06209lPzllOTQZ37ogXw&amp;oh=00_AfGvok1RLb_WAPb5i0R91R7m2tNDcGCfCha4KW50BgMyyg&amp;oe=6806950D"/>
+    <h2 class="page-title page-text-color page-text-font mt-16 text-center" id="name-handle">
+     leroybulaong
+    </h2>
+    <div class="mt-24">
+     <div class="page-item-wrap relative" id="fb-cont">
+      <div class="page-item flex-both-center absolute">
+      </div>
+      <a class="page-item-each py-10 flex-both-center" data-id="261685" data-type="page_item" href="https://www.facebook.com/leroy.bulaong" id="fb-link" target="_blank">
+       <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png"/>
+       <span class="item-title text-center" id="fb-button-text">
+        leroy.bulaong
+       </span>
+      </a>
+     </div>
+     <div class="page-item-wrap relative" id="ig-cont">
+      <div class="page-item flex-both-center absolute">
+      </div>
+      <a class="page-item-each py-10 flex-both-center" data-id="261685" data-type="page_item" href="https://www.instagram.com/leroybulaong" id="ig-link" target="_blank">
+       <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png"/>
+       <span class="item-title text-center" id="ig-button-text">
+        leroybulaong
+       </span>
+      </a>
+     </div>
+     <div class="page-item-wrap relative" id="x-cont">
+      <div class="page-item flex-both-center absolute">
+      </div>
+      <a class="page-item-each py-10 flex-both-center" data-id="261685" data-type="page_item" href="https://x.com/wanglihuaaa" id="x-link" target="_blank">
+       <img class="link-each-image" data-src="assets/images/x.jpg" src="assets/images/x.jpg"/>
+       <span class="item-title text-center" id="x-button-text">
+        wanglihuaaa
+       </span>
+      </a>
+     </div>
+     <div class="page-item-wrap relative" id="li-cont">
+      <div class="page-item flex-both-center absolute">
+      </div>
+      <a class="page-item-each py-10 flex-both-center" data-id="261652" data-type="page_item" href="https://www.linkedin.com/in/stevenleroybulaong/" id="li-link" target="_blank">
+       <img class="link-each-image" data-src="assets/images/linkedin.png" src="assets/images/linkedin.png"/>
+       <span class="item-title text-center" id="li-button-text">
+        Leroy Bulaong
+       </span>
+      </a>
+     </div>
+     <div class="page-item-wrap relative" hidden="" id="yt-cont">
+      <div class="page-item flex-both-center absolute">
+      </div>
+      <a class="page-item-each py-10 flex-both-center" data-id="261652" data-type="page_item" href="[Link]" id="yt-link" target="_blank">
+       <img class="link-each-image" data-src="assets/images/youtube.webp" src="assets/images/youtube.webp"/>
+       <span class="item-title text-center" id="yt-button-text">
+        PLACEHOLDER_NAME
+       </span>
+      </a>
+     </div>
+     <!-- <div class="page-item-wrap relative" id="gh-cont"> -->
+     <!-- <div class="page-item flex-both-center absolute"></div> -->
+     <!-- <a target="_blank"  class="page-item-each py-10 flex-both-center" id="gh-link" href="[Link]" data-id="261685" data-type="page_item"> -->
+     <!-- <img class="link-each-image" data-src="assets/images/github.png" src="assets/images/github.png"/> -->
+     <!-- <span class=" item-title text-center" id="gh-button-text">GitHub @ [User]</span> -->
+     <!-- </a> -->
+     <!-- </div>     -->
+    </div>
+   </div>
+  </div>
+ </body>
+ <!--
+    A different snowfall    
+    <script  src="assets/js/snowfall.js"></script>
+    -->
+</html>
